@@ -20,7 +20,7 @@
 Clone the repository
 
 ```bash
-https://github.com/krishangupta33/End-to-end-Machine-Learning-Project-with-MLflow-Docker-Flask-AWS
+ https://github.com/swapnilbanduke/End-to-End-MLOps
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
@@ -49,33 +49,18 @@ Now,
 open up you local host and port
 ```
 
-
-
-## MLflow
-
-[Documentation](https://mlflow.org/docs/latest/index.html)
-
-
 ##### cmd
 - mlflow ui
 
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/krishangupta33/End-to-end-Machine-Learning-Project-with-MLflow-Docker-Flask-AWS.mlflow \
-MLFLOW_TRACKING_USERNAME=krishangupta33 \
-MLFLOW_TRACKING_PASSWORD=b2afd9e768088515f8bec09ae9c28b80efbc0dd9 \
+
 python script.py
 
 Run this to export as env variables:
 
 ```bash
-
-export MLFLOW_TRACKING_URI=https://dagshub.com/krishangupta33/End-to-end-Machine-Learning-Project-with-MLflow-Docker-Flask-AWS.mlflow
-
-export MLFLOW_TRACKING_USERNAME=krishangupta33 
-
-export MLFLOW_TRACKING_PASSWORD=b2afd9e768088515f8bec09ae9c28b80efbc0dd9
 
 ```
 
@@ -114,7 +99,7 @@ export MLFLOW_TRACKING_PASSWORD=b2afd9e768088515f8bec09ae9c28b80efbc0dd9
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: mlproj.azurecr.io
+    - Save the URI: 
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
